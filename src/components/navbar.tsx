@@ -1,5 +1,6 @@
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import { ModeToggle } from "@/components/mode-toggle";
+import { LanguageToggle } from "@/components/language-toggle";
 import { buttonVariants } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -24,7 +25,7 @@ export default function Navbar() {
                   href={item.href}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
-                    "size-12"
+                    "size-12",
                   )}
                 >
                   <item.icon className="size-4" />
@@ -47,7 +48,7 @@ export default function Navbar() {
                     href={social.url}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
-                      "size-12"
+                      "size-12",
                     )}
                   >
                     <social.icon className="size-4" />
@@ -67,6 +68,16 @@ export default function Navbar() {
             </TooltipTrigger>
             <TooltipContent>
               <p>Theme</p>
+            </TooltipContent>
+          </Tooltip>
+        </DockIcon>
+        <DockIcon>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <LanguageToggle />
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Language</p>
             </TooltipContent>
           </Tooltip>
         </DockIcon>

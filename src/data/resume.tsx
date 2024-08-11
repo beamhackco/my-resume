@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   title: "Resume",

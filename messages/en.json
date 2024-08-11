@@ -1,0 +1,14 @@
+{
+    "HomePage": {
+      "about": "About",
+      "work_experience": "Work Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "My Projects",
+      "contact": "My Contact",
+
+      "title": "Hi, I'm Amornphong 👋",
+      "description": "Software Engineering Student At Mae Fah Luang University.",
+      "summary": "I am a student at Mae Fah Luang University and I am looking to expand my skills by pursuing an internship in Web Application development."
+    }
+}
