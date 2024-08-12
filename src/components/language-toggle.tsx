@@ -24,7 +24,7 @@ export function LanguageToggle() {
       className="px-2"
       onClick={handleClick}
     >
-      <Languages className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:hidden dark:text-neutral-200" />
+      <Languages className="h-[1.2rem] w-[1.2rem] text-neutral-800 dark:text-neutral-200" />
     </Button>
   );
 }
